@@ -3,14 +3,15 @@
 
 int main() {
 
-  char example1[20] = "example of strcpy";
-  char example2[20] = "example of strncpy";
+  char example1[20];
 
   strcpy (example1, "example of strcpy");
 
   printf("%s\n", example1);
 
-  strncpy (example2, "example of strncpy", 6);
+  char example2[20];
+
+  strncpy (example2, "example of strncpy", 10);
     
   printf("%s\n", example2);
     
